@@ -23,8 +23,6 @@ mise.toml
 htmlcov/
 
 # Local secrets/config. Keep tracked examples if added later.
-.env
-.env.*
 !.env.example
 
 # Root vendor/ is accidental - real vendored client lives at scripts/lib/vendor/bird-search/
@@ -49,3 +47,5 @@ docs/brainstorms/
 
 /work
 /print
+config.bat
+node_modules
